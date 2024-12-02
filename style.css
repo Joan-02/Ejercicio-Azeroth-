@@ -1,0 +1,103 @@
+
+/*SELECTOR DE ELEMENTO*/
+h1 {
+    color: #C0A060;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+p {
+    color: #1A2C4E;
+    margin-bottom: 1rem;;
+}
+
+h2 {
+    color: #8C1616;
+    font-size: 2rem;
+}
+
+h3 {
+    color: #1A3C8C;
+    font-size: 1.75rem;
+}
+
+h1, h2, h3 {
+    font-family: georgia, garamond, serif;
+}
+
+a {
+    color: #1A3C8C; 
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+}
+
+body {
+    background-color:  #F5E6D3;
+}
+
+header {
+    padding: 1.5rem;
+    background: linear-gradient(45deg, #1A2C4E, #2A3C5E);
+}
+
+a:hover {
+    color: #C0A060;  
+    text-decoration: underline;  
+}
+
+
+/*SELECTOR DE CLASE*/
+.textosecundario {
+    color: #707070;
+}
+
+p, ul {
+    font-family: arial, verdana, sans-serif;
+    font-size: 1rem;
+}
+
+.contenedorprincipal {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.textoheader {
+    color: #C0A060;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.sectionsarticles > section {
+    margin-bottom: 3rem;
+    padding: 1.5rem;
+}
+
+.aritcles > article {
+    margin-bottom: 2rem;
+}
+
+.card-noticia {
+    padding: 1.25rem;
+    background-color: #FFFFFF;
+    border: 1px solid rgba(192,160,96,0.2);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    margin-bottom: 7px;
+}
+
+.card-noticia img {
+    max-width: 100%;   /* La imagen ocupará todo el ancho disponible */
+    height: auto;      /* Mantiene la proporción de la imagen */
+    display: block;    /* Evita el espacio extra debajo de la imagen */
+    object-fit: contain; /* Mantiene la imagen proporcional sin que se recorte */
+    border-radius: 4px;
+    box-shadow:  0 4px 8px rgba(0,0,0,0.1);
+    transition:  0.3s ease-in-out;
+}
+
+.card-noticia img:hover {
+    transform: scale(1.02);
+}
+
+
+
+
